@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Hub</title>
+</head>
+<body>
+ <header>
+        <h1>Welcome to Music Hub</h1>
+        <nav>
+            <ul>
+                <li><a href="#genres">Genres</a></li>
+                <li><a href="#artists">Featured Artists</a></li>
+                <li><a href="#instruments">Instruments</a></li>
+            </ul>
+        </nav>
+    </header>
+ <section id="genres">
+        <h2>Music Genres</h2>
+        <article>
+            <h3>Rock</h3>
+            <p>Rock music is famous for having a strong backbeat, usually in 4/4 rhythm, although more progressive styles can employ trickier time signatures.</p>
+        </article>
+        <article>
+            <h3>Pop</h3>
+            <p>Pop music is an abbreviation of the word 'popular. ' It's a contemporary form of music that appeals to a very wide audience.</p>
+        </article>
+    </section>
+<section id="artists">
+        <h2>Featured Artists</h2>
+        <article>
+            <h3>arjit singh</h3>
+            <p>Arijit Singh was born on 25 April 1987 in Jiaganj, Murshidabad, West Bengal to Kakkar Singh, a Punjabi Sikh father and Aditi Singh, a Bengali Hindu mother. His paternal family came from Lahore during the Partition. He began his music training at a very young age at home.</p>
+        </article>
+        <article>
+            <h3>udit narayan</h3>
+            <p>Udit Narayan Jha credited as Udit Narayan (born 1 December 1955)is an established Indian playback singer who works in Bollywood and whose songs have been featured mainly in Nepali and Bollywood movies. He has won three National Film Awards and five Filmfare Awards.</p>
+        </article>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    </section>
+ <section id="instruments">
+        <h2>Instruments</h2>
+        <article>
+            <h3>Guitar</h3>
+            <p>Description about guitar...</p>
+        </article>
+        <article>
+            <h3>Piano</h3>
+            <p>Description about piano...</p>
+        </article>
+    </section>
+    <div class="card-container">
+        <div class="card">
+            <img src="album1.jpg" alt="Album 1">
+            <h3>Album 1</h3>
+            <p>Description about album 1...</p>
+        </div>
+        <div class="card">
+            <img src="album2.jpg" alt="Album 2">
+            <h3>Album 2</h3>
+            <p>Description about album 2...</p>
+        </div>
+    </div>
+    <section class="content">
+        <h2>Image Gallery</h2>
+        <div class="image-gallery">
+            <img src="https://images.app.goo.gl/PYqUyWYrWucAdrrj6" alt="Image 1">
+            <img src="https://images.app.goo.gl/mauqpyM4YvcH9J857" alt="Image 2">
+            <img src="https://images.app.goo.gl/ocnG13uYZyB1UPSa7" alt="Image 3">
+        </div>
+        <h2>Audio Clips</h2>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+        <h2>Music Videos</h2>
+        <div class="video-container">
+            <iframe src="https://youtu.be/RLzC55ai0eo?si=yFywHWLeTqVr49tZ" frameborder="0" allowfullscreen></iframe>
+        </div>
+        <main>
+            <button class="button">Hover over me</button>
+            <a href="#" class="button">Hover over me</a>
+        </main>
+     <footer>
+        <p>&copy; 2024 Music Hub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
